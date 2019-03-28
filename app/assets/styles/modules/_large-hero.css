@@ -19,14 +19,20 @@
     font-weight: 300;
     color: $elVerde;
     margin: 0;
-    font-size: 2.4rem;
+    font-size: 2rem;
 
     @mixin atSmall {
-      font-size: 3.6rem;
+      font-size: 2.8rem;
+      margin-top: 3rem;
     }
 
     @mixin atMedium {
-      font-size: 4.8rem;
+      font-size: 4rem;
+      margin-top: 3rem;
+    }
+
+    @mixin atLarge {
+      margin-top: 6rem;
     }
   }
 
@@ -37,7 +43,11 @@
     margin: 0;
 
     @mixin atSmall {
-      font-size: 2.9rem;
+      font-size: 2rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2.5rem;
     }
   }
 
